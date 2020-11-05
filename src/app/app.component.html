@@ -1,0 +1,29 @@
+<!--<h1>hello world</h1>
+<div *ngFor="let x of movieList">
+  <div>
+    title={{x.original_title}}
+  </div>
+</div>-->
+
+<div *ngFor="let item of movieList">
+ 
+    <div font="cadedblue">
+    {{item.original_title}}
+  </div>
+  <div>
+  <img src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/{{item.poster_path}}" alt="">
+  </div>
+  <div class="something">
+      {{item.overview}}
+  </div>
+  <br/>
+  <div >
+    <button mat-button color="primary">Review</button>
+  </div>
+  <br/>
+  <div class="submit">
+    <button mat-button color="primary">Like</button>
+  </div>
+
+  <img src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/{{item.title}}" alt="">
+</div>

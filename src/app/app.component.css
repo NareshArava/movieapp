@@ -1,0 +1,10 @@
+.mall{
+    display: flex;
+    flex-direction: row;
+}
+.something{
+    width:30%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
