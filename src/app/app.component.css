@@ -1,6 +1,6 @@
 .mall{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 .something{
     width:30%;
